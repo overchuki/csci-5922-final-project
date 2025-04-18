@@ -1,15 +1,17 @@
 
-1. Generate 30 AI images for each animal category to create fake data
-   1. C:\Users\igort\Documents\ComfyUI\output
+1. ~~Generate 30 AI images for each animal category to create fake data~~
+   1. ~~C:\Users\igort\Documents\ComfyUI\output~~
 
-2. Make a DataImporter class that can take a percentage of the real/AI images to include in its data loader
-   1. Should be able to make any combo of real to AI, 0-100% each
-3. Make a CNN model
+2. ~~Make a DataImporter class that can take a percentage of the real/AI images to include in its data loader~~
+   1. ~~Should be able to make any combo of real to AI, 0-100% each~~
+3. ~~Make a CNN model~~
 4. Make a Combined model with ResNet50
    1. Coding tutorial 6
-5. Optional: Make a Visual Transformer model
-   1. Coding tutorial 10
+5. Optional: ~~Make a Visual Transformer model~~
+   1. ~~Coding tutorial 10~~
 6. Test baseline time to train each model on 30 real images per animal with CUDA
+   1. CNN: with 100% AI and real, 1min 20sec per epoch
+   2. CNN: with just real, 50sec per epoch
 7. Hyperparam tune CNN
 HAVE DONE BY **4/20**
 1. Hyperparam tune Combined
